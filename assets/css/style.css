@@ -1,0 +1,81 @@
+body {
+  background-color: #f48c6c;
+}
+.first{
+  padding: 1%;
+}
+h1{
+  text-align: right;
+  color: white;
+}
+p{
+  text-align: right;
+  color: white;
+}
+.imgUno {
+  background-image: url(../img/uno.jpg);
+  padding: 20em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+.imgDos {
+  background-image: url(../img/dos.jpg);
+  padding: 20em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.imgTres {
+  background-image: url(../img/tres.jpg);
+  padding: 20em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+.green{
+  background-color: #ace38b;
+  height: auto;
+  padding: 5%;
+}
+.text1{
+  background-color: #f48c6c;
+  padding: 1%;
+}
+h2{
+  text-align: center;
+  color: white;
+}
+.pa2{
+  text-align: justify;
+  color: white;
+}
+.gh{
+  color:white;
+  text-align: right;
+  
+}
+.title2 {
+  padding-top: 2%;
+  background-color: #ace38b;
+}
+
+
+/*Responisveeee*/
+
+@media (min-width: 320) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
